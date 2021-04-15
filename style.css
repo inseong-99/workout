@@ -1,0 +1,10 @@
+.h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  background-color: burlywood;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 10px;
+}
