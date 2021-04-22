@@ -14,36 +14,50 @@
     </style>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>workout</title>
+    <title>timer</title>
   </head>
-  
 
-    <body>
-      <div>
-        <header class="title">
-          <h1>For the goal</h1>
+  <body>
+    <div>
+      <header class="title">
+        <h1>For the goal</h1>
       </header>
     </div>
-    
+
+    <div class="watch">
+      <div>
+        <span id="postTestMin">00</span>
+        <span>:</span>
+        <span id="postTestSec">00</span>
+        <span>.</span>
+        <span id="postTestMilisec">00</span>
+      </div>
+
+      <div>
+        <button type="button" id="testStartBtn">START</button>
+        <button type="button" id="testStopBtn">STOP</button>
+      </div>
+    </div>
+
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="index.html">
-            <i class="fas fa-list-ul fa-2x"></i></a>
-          </li>
-          <li class="nav__btn">
-            <a class="nav__link" href="timer.html"
-            ><i class="far fa-clock fa-2x"></i></i
-            ></a>
-          </li>
-        </ul>
-      </nav>
-    
-      
-      <script
+            <i class="fas fa-list-ul fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="timer.html"
+            ><i class="far fa-clock fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
-      ></script>
-    </body>
-    </html>
-    
+    ></script>
+    <script src="stop.js"></script>
+  </body>
+</html>
