@@ -24,3 +24,7 @@
   font-weight: 800;
   font-size: 20px;
 }
+
+#controls__btus button:active {
+  transform: scale(0.95);
+}
