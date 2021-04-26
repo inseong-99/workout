@@ -1,0 +1,38 @@
+.text__header {
+  display: block;
+  background-color: whitesmoke;
+  width: 900px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 30px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.text__title {
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 50px;
+  padding: 10px;
+  padding-bottom: 1px;
+}
+
+.text__title__s {
+  font-size: 25px;
+  padding-bottom: 8px;
+  padding-top: 3px;
+  font-family: "Nanum Myeongjo", serif;
+}
+
+.text__title__c {
+  font-family: "Nanum Myeongjo", serif;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 20px;
+  margin-left: 600px;
+}
+
+.text__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
